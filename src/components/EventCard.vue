@@ -1,3 +1,4 @@
+<!-- eslint-disable prettier/prettier -->
 <template>
   <router-link
     class="event-link"
@@ -9,7 +10,7 @@
     </div>
   </router-link>
 </template>
-
+<!-- eslint-disable prettier/prettier -->
 <script>
 export default {
   name: 'EventCard',
@@ -21,7 +22,7 @@ export default {
   },
 }
 </script>
-
+<!-- eslint-disable prettier/prettier -->
 <style scoped>
 .event-card {
   padding: 20px;

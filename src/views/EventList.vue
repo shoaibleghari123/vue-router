@@ -1,3 +1,4 @@
+<!-- eslint-disable prettier/prettier -->
 /* eslint-disable prettier/prettier */
 <template>
   <div class="events">
@@ -29,7 +30,7 @@
     </div>
   </div>
 </template>
-
+<!-- eslint-disable prettier/prettier -->
 <script>
 // @ is an alias to /src
 import EventCard from '@/components/EventCard.vue'
@@ -96,7 +97,7 @@ export default {
   },
 }
 </script>
-
+<!-- eslint-disable prettier/prettier -->
 <style scoped>
 .events {
   display: flex;

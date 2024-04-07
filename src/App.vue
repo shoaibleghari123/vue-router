@@ -1,3 +1,4 @@
+<!-- eslint-disable prettier/prettier -->
 <template>
   <div id="flashMessage" v-if="Gstore.flashMessage">
     {{ Gstore.flashMessage }}
@@ -8,13 +9,13 @@
   </nav>
   <router-view />
 </template>
-
+<!-- eslint-disable prettier/prettier -->
 <script>
 export default {
   inject: ['Gstore'],
 }
 </script>
-
+<!-- eslint-disable prettier/prettier -->
 <style>
 @keyframes yellowfade {
   from {
